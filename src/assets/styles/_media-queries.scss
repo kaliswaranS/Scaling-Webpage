@@ -1,0 +1,85 @@
+@media (min-width: 300px) {
+  html {
+    font-size: 12px;
+  }
+
+  @include b('find-data') {
+    flex-direction: column;
+
+    @include b('h3') {
+      max-width: 100%;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+
+  .container {
+      max-width: 540px;
+  }
+
+  @include b('header') {
+    @include e('title') {
+      @include m('d-xs-none') {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+      max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .container {
+      max-width: 960px;
+  }
+
+  @include b('find-data') {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+
+  .container {
+      max-width: 1140px;
+  }
+
+  @include b('header') {
+    @include e('title') {
+      @include m('d-xs-none') {
+        display: block;
+      }
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
+}
