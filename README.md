@@ -9,6 +9,8 @@ Scaling Web page application is configured with the following.
 3. Autoprefixer
 4. Babel
 5. mini-css-extract-pulgin
+6. Sass-BEM
+7. ES6
 
 # Install dependencies
 npm install
