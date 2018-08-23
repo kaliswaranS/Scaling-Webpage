@@ -1,7 +1,7 @@
 {
-  "name": "react-autoprefixer",
+  "name": "scaling-webpage-application",
   "version": "1.0.0",
-  "description": "react app with webpack autoprefixer",
+  "description": "scaling web page application is done with css rem unit",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
